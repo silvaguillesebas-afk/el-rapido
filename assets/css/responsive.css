@@ -1,0 +1,378 @@
+/* RESPONSIVE DESIGN */
+
+/* Tablets - 768px y menos */
+@media (max-width: 768px) {
+    .navbar-container {
+        height: 70px;
+        padding: 0 15px;
+    }
+    
+    .navbar-menu {
+        gap: 15px;
+        margin-left: 20px;
+        font-size: 0.95em;
+    }
+    
+    .logo-img {
+        height: 50px;
+    }
+    
+    .navbar-right {
+        gap: 15px;
+    }
+    
+    .hero-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 40px 20px;
+    }
+    
+    .hero-content h1 {
+        font-size: 2em;
+    }
+    
+    .hero-buttons {
+        gap: 10px;
+    }
+    
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.95em;
+    }
+    
+    .categories-grid {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 15px;
+    }
+    
+    .category-icon {
+        font-size: 2em;
+    }
+    
+    .section-title {
+        font-size: 1.5em;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .promotions-grid,
+    .purchases-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .location-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .location-map {
+        height: 300px;
+    }
+    
+    .location-info {
+        padding: 20px;
+    }
+    
+    .features-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .whatsapp-button {
+        padding: 10px 15px;
+        font-size: 0.9em;
+    }
+    
+    .user-menu {
+        gap: 10px;
+    }
+    
+    .user-link,
+    .logout-link {
+        font-size: 0.9em;
+    }
+}
+
+/* Móviles - 480px y menos */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    
+    .navbar-container {
+        height: 60px;
+        padding: 0 10px;
+    }
+    
+    .navbar-menu {
+        display: none;
+    }
+    
+    .navbar-right {
+        gap: 10px;
+    }
+    
+    .hero {
+        padding: 30px 10px;
+        margin-bottom: 20px;
+    }
+    
+    .hero-content h1 {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+    
+    .hero-content p {
+        font-size: 1em;
+        margin-bottom: 20px;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .btn {
+        width: 100%;
+        padding: 12px 15px;
+        justify-content: center;
+    }
+    
+    .hero-status {
+        margin-top: 15px;
+        font-size: 0.9em;
+    }
+    
+    .hero-image {
+        display: none;
+    }
+    
+    .categories {
+        margin: 0 auto 30px;
+        padding: 0 10px;
+    }
+    
+    .categories-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    
+    .category-card {
+        padding: 15px;
+    }
+    
+    .category-icon {
+        font-size: 1.8em;
+    }
+    
+    .category-card p {
+        font-size: 0.85em;
+    }
+    
+    .section-title {
+        font-size: 1.3em;
+        margin-bottom: 20px;
+    }
+    
+    .section-title a {
+        font-size: 0.7em;
+    }
+    
+    .promotions,
+    .weekly-purchases,
+    .location {
+        margin: 0 auto 30px;
+        padding: 0 10px;
+    }
+    
+    .promotions-grid,
+    .purchases-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .promo-card {
+        height: 150px;
+    }
+    
+    .promo-title {
+        font-size: 1.2em;
+    }
+    
+    .promo-price {
+        font-size: 1.5em;
+    }
+    
+    .purchase-card {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .purchase-price {
+        margin-right: 0;
+    }
+    
+    .purchase-btn {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .save-purchase-btn {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .location-grid {
+        gap: 15px;
+    }
+    
+    .location-map {
+        height: 250px;
+    }
+    
+    .location-info {
+        padding: 15px;
+    }
+    
+    .location-info h3 {
+        font-size: 1.1em;
+    }
+    
+    .location-details {
+        margin-bottom: 10px;
+    }
+    
+    .location-hours {
+        margin-bottom: 15px;
+        font-size: 0.95em;
+    }
+    
+    .location-btn {
+        width: 100%;
+        justify-content: center;
+        font-size: 0.95em;
+    }
+    
+    .features {
+        padding: 20px 10px;
+        margin-bottom: 20px;
+    }
+    
+    .features-container {
+        gap: 20px;
+    }
+    
+    .feature-item {
+        gap: 10px;
+    }
+    
+    .feature-icon {
+        font-size: 2em;
+    }
+    
+    .feature-content h4 {
+        font-size: 0.95em;
+    }
+    
+    .feature-content p {
+        font-size: 0.85em;
+    }
+    
+    .footer {
+        padding: 20px 10px 10px;
+    }
+    
+    .footer-content {
+        gap: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .footer-section h4 {
+        font-size: 0.95em;
+        margin-bottom: 10px;
+    }
+    
+    .footer-section ul li {
+        margin-bottom: 8px;
+    }
+    
+    .footer-logo-img {
+        height: 40px;
+    }
+    
+    .footer-section p {
+        font-size: 0.85em;
+    }
+    
+    .footer-bottom {
+        font-size: 0.85em;
+        padding-top: 15px;
+    }
+    
+    .whatsapp-widget {
+        bottom: 20px;
+        right: 20px;
+    }
+    
+    .whatsapp-button {
+        padding: 12px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        justify-content: center;
+    }
+    
+    .cart-price {
+        display: none;
+    }
+    
+    .user-menu {
+        display: none;
+    }
+}
+
+/* Pantallas muy pequeñas - 320px */
+@media (max-width: 320px) {
+    .hero-content h1 {
+        font-size: 1.2em;
+    }
+    
+    .categories-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .promo-card {
+        height: 120px;
+    }
+    
+    .promo-title {
+        font-size: 1em;
+    }
+    
+    .promo-price {
+        font-size: 1.3em;
+    }
+}
+
+/* Pantallas muy anchas - 1400px+ */
+@media (min-width: 1400px) {
+    .hero-container,
+    .categories,
+    .promotions,
+    .weekly-purchases,
+    .location,
+    .features-container,
+    .footer-content {
+        max-width: 1400px;
+    }
+    
+    .hero-content h1 {
+        font-size: 3.5em;
+    }
+}
